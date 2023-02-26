@@ -1,0 +1,97 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.section{
+    background-image: url(https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720__340.jpg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.container h1{
+    margin-left: 176px;
+    padding-top: 25px;
+}
+.container{
+    color:white;
+    font-size: 35px;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 65px;
+   
+}
+.blacks{
+    background-color: rgb(179, 121, 121);
+    padding: 20px;
+}
+.blacks h1{
+    font-weight: 400;
+    color: antiquewhite;
+    font-size: 40px;
+    text-align: center;
+    padding: 5px;
+
+}
+.work{
+    /* margin: 10px;
+    padding: 12px; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,2fr));
+    background-color:  #3f5d5d;;
+}
+.card{
+    margin: 45px;
+    max-width:240px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.5) ;
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+   
+}
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: 0.2s;
+}
+.cr-contain{
+    margin: 10px;
+    text-align:center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.image{
+    width:50px;
+    margin: 7px;
+    border-radius: 50px;
+
+}
+.about-co{
+    display: flex;
+    justify-content: space-between;
+
+}
+.about{
+    font-family: cursive;
+    background-color: darkkhaki;
+    padding: 1rem;
+    border: 1px solid;
+}
+.contact{
+    font-family: cursive;
+    background-color: darkkhaki;
+    padding: 1rem;
+    border: 1px solid;
+}
